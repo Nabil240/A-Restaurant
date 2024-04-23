@@ -1,0 +1,435 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.image-container {
+    position: relative;
+ } 
+
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+.text-primary{
+        color: brown;
+        font-family: "Great Vibes", cursive;
+        font-size: 80px;
+        font-style: normal;
+}
+
+  .waviy {
+    position: relative;
+   
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    color: rgb(161, 41, 41);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+
+.banner-image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+} 
+
+.about-container{
+  padding-top:200px;
+  text-align: center;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  gap: 100px;
+  margin-left: 350px;
+  margin-right: 100px;
+}
+
+.style-text{
+  color: brown;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  font-weight: bolder;  
+}
+.about-details{
+ text-align: left;
+ margin-left: 50px;
+ padding-right: 350px;
+}
+
+.about-details>h2{
+  color: rgb(250, 1, 1);
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: -25px;
+}
+.pera{
+ font-size: 20px;
+}
+
+
+.services-box{
+  display: flex;
+  margin-top: 200px;
+  background-color: rgba(29, 28, 28, 0.74);
+   color: white;
+   padding: 50px;
+} 
+
+
+.service>img{
+height: 100px;
+width: 100px;
+margin-left: 10px;
+
+}
+
+.service {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.service h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+} 
+
+
+  
+menu-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+}
+.menu-head {
+  position: relative;
+  text-align: center;
+  margin-top: -1200px;
+}
+
+.menu-head>h2{
+  color: rgb(250, 1, 1);
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: -20px;
+}
+.menu-items{
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 10px;
+
+}
+
+.menu-items>div{
+  height: 200px;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: -100px;
+  text-align: center;
+ 
+}
+
+.menu-items>div>h2{
+  font-weight: 80px;
+  margin-top: 60px;
+}
+
+.menu-items>div>p{
+  font-weight: 100;
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+  padding: 50px;
+  gap: 100px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 50px;
+  gap: 50px;
+  
+}
+
+.left-side {
+  justify-content: flex-start;
+
+}
+
+.right-side {
+  justify-content: flex-end;
+  
+}
+menu-list>div{
+
+  gap: 10px;
+}
+
+.chef-head {
+
+text-align: center;
+
+}
+
+
+.chef-head>p {
+font-size: 40px;
+color: brown;
+font-family: "Great Vibes", cursive;
+}
+
+.container-chef {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 50px;
+   }
+   .chef-detils {
+    margin-top: 50px;
+padding: 50px ;
+}
+
+.chef-detils>p {
+    
+    height: auto;
+    width:500px;
+    text-align: left;
+    justify-content:center ;
+
+   }
+
+
+
+
+
+ 
+
+.form-head {
+display: flex;
+justify-content: left;
+background-color: black;
+ 
+}
+
+
+
+.form-contant {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #000000;
+  color: white;
+  padding: 100px;
+  margin-left: 100px;
+ 
+  
+}
+
+form {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #000000;
+ 
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+  grid-column: span 2;
+  
+  border: 1px solid #000000;
+  border-radius: 3px;
+  
+}
+
+textarea {
+  height: 100px;
+
+}
+
+.gallery-container{
+
+  margin-top: 20px;
+}
+
+.img-gallery{
+ text-align: center;
+
+
+}
+.img-gallery>p{
+  font-size: 40px;
+  color: brown;
+  font-family: "Great Vibes", cursive;
+
+}
+.img-gallery>h2{
+
+  font-weight: 100;
+}
+
+
+.food-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  
+}
+
+.food-item {
+  width: 30%;
+  height: 20%;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.c-review{
+ text-align: center;
+ background-color: #000000;
+ color: white;
+
+}
+
+.style-text{
+  color: brown;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  font-weight: bolder;  
+}
+
+
+.com {
+ text-align: center;
+}
+.com>p{
+  color: brown;
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  font-weight: bolder;  
+}
+.com>h2{
+ font-weight: 100;
+
+}
+
+
+.grid-container {
+  display: flex;
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+  text-align: center;  margin-top: 50px;
+  text-decoration: none;
+}
+.grid-item>h2{
+font-weight: bolder;
+text-align: left;
+justify-content: start;
+
+}
+.grid-item>img{
+ height: 390px;
+ width: 600px;
+
+}
+
+.grid-item>p{
+text-align: left;
+justify-content: start;
+
+}
+span>read {
+
+  font-weight: bolder;
+}
+
+
+.catering{
+  padding-top: 90px;
+  height: 50vh;
+  width: 200vh;
+text-align: center;
+background-color: black;
+color: white;
+
+}
+.catering>h3{
+  color: rgb(255, 255, 255);
+  font-family: "Great Vibes", cursive;
+  font-size: 90px;
+  font-weight: bolder;  
+}
+
+.catering>P {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.address-container {
+ display: flex;
+text-align: center;
+justify-content: center;
+ padding: 20px;
+ gap: 80px;
+ background-color: #000000;
+ color: rgb(255, 255, 255);
+}
+.address-box{
+margin-top: 100px;
+padding: 20px;
+}
+
+
+
+
+ .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #000000;
+   color: white; 
+}
+
+ .footer-container>info {
+  margin-left: 30px;
+
+}
+
